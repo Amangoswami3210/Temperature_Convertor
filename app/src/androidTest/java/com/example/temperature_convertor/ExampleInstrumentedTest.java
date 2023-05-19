@@ -9,7 +9,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import static org.junit.Assert.*;
- // commit by aman goswami 
+ // commit by aditya sharma 
 /**
  * Instrumented test, which will execute on an Android device.
  *
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.temperature_convertor", appContext.getPackageName());
+        assertEquals("com.example.Temperature Convertor ", appContext.getPackageName());
     }
 }
